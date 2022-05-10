@@ -1,0 +1,382 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-04-23 12:32:18
+ * @version $Id$
+ */
+.menu>button{
+    height: 80px;
+    width: 160px;
+}
+li{
+    list-style: none;
+}
+.m-mobile{
+    width: 375px;
+    height: 997px;
+}
+.m-pc{
+    width: 1006px;
+    height: 1442px;
+}
+.bg1{
+     width: 375px;
+    height: 997px;
+    position: absolute;
+    background: url("../img/bk1.png");
+    opacity: .4;
+}
+.bg2{
+    width: 1006px;
+    height: 1442px;
+
+    position: absolute;
+    background: url("../img/bk2.png");
+    opacity: .4;
+}
+.m-sosuo{
+    display: inline-block;
+    height: 53px;
+    width: 374px;
+    background-color: #06c1ae;
+}
+.sosuo-1{
+    position: relative;
+    left: 5px;
+    line-height: 53px;
+    color: #fff;
+    font-size: 23px;
+    display: inline;
+}
+.kuang{
+    position: relative;
+    line-height: 30px;
+    top: -42px;
+    left: 58px;
+    width: 270px;
+    height: 30px;
+    background: #05a494;
+}
+.ren{
+    position: relative;
+    left: 337px;
+    top: -69px;
+    color: #fff;
+    font-size: 10px;
+    line-height: 53px;
+}
+.yuan{
+    position: relative;
+    top: -100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.row{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin-right: 26px;
+    margin-left: 27px;
+    margin-top: 40px;
+    margin-bottom: 1px;
+}
+#r1{
+    background-color: #ff8822;
+}
+#r2{
+    background-color: #ea6644;
+}
+#r3{
+    background-color: #7788f2;
+}
+#r4{
+    background-color: #ff8822;
+}
+#r5{
+    background-color: #66ccee;
+}
+#r6{
+    background-color: #f7ba5b;
+}
+#r7{
+    background-color: #66ccee;
+}
+#r8{
+    background-color: #ff8822;
+}
+.zi{
+    font-size: 15px;
+}
+.yuan>span{
+    position: relative;
+    top: -72px;
+    margin-left: 36px;
+    margin-right: 36px;
+    margin-bottom: 57px;
+}
+.m-box1{
+    position: relative;
+    top: -193px;
+    width: 128px;
+    height: 158px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+}
+.m-box1>label{
+    color: #55a40f;
+    font-size: 18px;
+    position: relative;
+    left: 20px;
+    top: 7px;
+}
+.m-box1>li{
+    font-size: 10px;
+    position: relative;
+    top: 16px;
+    left: 25px;
+}
+.m-box1>div{
+    position: relative;
+    top: 21px;
+    left: 21px;
+    width: 87px;
+    height: 87px;
+    background: #666666;
+}
+.m-box2{
+    width: 248px;
+    height: 77px;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    top: -353px;
+    left: 130px;
+}
+.m-box2>label{
+    position: relative;
+    top: 7px;
+    left: 15px;
+    color: #ff663f;
+}
+.m-box2>li{
+    position: relative;
+    top: 10px;
+}
+.m-box2>div{
+    width: 64px;
+    height: 64px;
+    background: #666666;
+    position: relative;
+    top: -34px;
+    left: 148px;
+}
+.m-box3{
+    width: 117px;
+    height: 77px;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    top: -353px;
+    left: 130px;
+}
+.m-box3>label{
+    position: relative;
+    top: 6px;  
+    left: 17px;
+    color: #fa90c7;
+}
+.m-box3>div{
+        width: 43px;
+    height: 43px;
+    background: #666666;
+    position: relative;
+    top: 5px;
+    left: 41px;
+}
+.m-box4{
+    width: 129px;
+    height: 77px;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    top: -433px;
+    left: 249px;
+}
+.m-box4>label{
+    position: relative;
+    top: 6px;  
+    left: 17px;
+    color: #ffa139;
+}
+.m-box4>li{
+    position: relative;
+    top: 6px;
+}
+.m-box4>span{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    margin: 2px;
+    background: grey;
+    color: white;
+    border-radius: 3px 3px 3px 3px;   
+}
+.m-box5{
+    width: 184px;
+    height: 77px;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    top: -418px;
+    left: 0px;
+}
+.m-box5>label{
+    position: relative;
+    top: 16px;  
+    left: 24px;
+    color: #ec7759;
+}
+.m-box5>li{
+    position: relative;
+    top: 15px;
+}
+.m-box5>div{
+            width: 68px;
+    height: 68px;
+    background: #666666;
+    position: relative;
+    top: -39px;
+    left: 113px;
+}
+.m-box6{
+    width: 184px;
+    height: 77px;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    top: -497px;
+    left: 188px;
+}
+.m-box6>label{
+    position: relative;
+    top: 16px;  
+    left: 24px;
+    color: #f99b09;
+}
+.m-box6>li{
+    position: relative;
+    top: 15px;
+}
+.m-box6>div{
+    width: 68px;
+    height: 68px;
+    background: #666666;
+    position: relative;
+    top: -39px;
+    left: 113px;
+}
+.m-line{
+    width: 600px;
+    height: 30px;
+    position: relative;
+    top: -480px;
+}
+.mai{
+    position: relative;
+    width: 374px;
+    height: 100px;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
+}
+#mai1{
+    top: -476px;
+}
+.mai>.tu{
+    position: relative;
+    top: 8px;
+    left: 14px;
+    width: 82px;
+    height: 82px;
+    background: #666666;
+}
+.mai>li{
+    position: relative;
+    top: -75px;
+    left: 105px;
+}
+.mai>span{
+    font-size: 10px;
+    position: relative;
+    top: -77px;
+    left: 105px;
+}
+.mai>label{
+    color: #07c1ae;
+    font-size: 20px;
+    position: relative;
+    left: -45px;
+    top: -41px;
+}
+.mai>.maibox{
+    position: relative;
+    left: 156px;
+    top: -62px;
+    width: 50px;
+    height: 18px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ff9900;
+}
+.maibox>span{
+    font-size: 10px;
+    color: #ff9900;
+    position: relative;
+    top: -4px;
+    left: 4px;
+}
+.mai>a{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    text-align: right;
+    font-size: 10px;
+    position: relative;
+    top: -84px;
+    left: 309px;
+}
+#mai2{
+    top: -474px;
+}
+#mai3{
+    top: -473px;
+}
+#mai4{
+    top:-473px;
+}
+#mai3>.maibox{
+    border-style: none;
+    font-size: 10px;
+    width: 83px;
+    top: -56px;
+}
+#mai4>.maibox{
+    border-style: none;
+    font-size: 10px;
+    width: 83px;
+    top: -56px;
+}
+#mai2>a{
+    text-align: right;
+}
+.m-line1{
+    width: 374px;
+    height: 36px;
+    background-color: #a0c5e8;
+    position: relative;
+    top: -473px;
+    line-height: 36px;
+    color: #6db8d7;
+}

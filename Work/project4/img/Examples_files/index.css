@@ -1,0 +1,32 @@
+body{
+margin: 0;
+}
+
+div{
+display: block;
+}
+
+li{
+list-style: none;
+}
+.mg-bk{/*背景图片*/
+    position: absolute;
+    width: 608px;
+    height: 881px;
+    background: url('../img/bk.jpg') no-repeat;
+    opacity: .4;
+    background-size: 50% 50%;
+}   
+.m-taobao{/*上栏标题*/
+width: 304px;
+height: 440.5px;
+border: 7px solid #eee;
+box-sizing: border-box;
+}
+.m-head{
+    height: 56px;
+    /*background: #336699;*/
+}
+.m-head>li>lable {
+    display: block;
+}

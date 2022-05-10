@@ -1,0 +1,274 @@
+@charset "UTF-8";
+/**
+*
+* @authors Your Name (you@example.org)
+* @date    2022-04-01 14:55:40
+* @version $Id$
+*/
+body{
+margin: 0;
+}
+li{
+list-style: none;
+}
+.m-work_1{
+width: 730px;
+height: 560px;
+background: #cdd3f5;
+border-width: 20px;
+border-style: solid;
+border-color: #cdd3f5;
+}
+.m-head{
+position: relative;
+display: flex;
+width: 730px;
+height: 120px;
+border-style: solid;
+border-width: 1px;
+border-color: #000000;
+background: #99bd90;
+align-items: center;
+}
+.m-box_1{
+width: 80px;
+height: 80px;
+margin: 20px;
+background: #cdd3f5;
+border-width: 1px;
+border-style: solid;
+border-color: #000000;
+}
+.m-head>i{
+background: #99bd90;
+border-style: none;
+}
+.m-body{
+flex-wrap: wrap;
+display: flex;
+background: #99bd90;
+position: relative;
+top: 20px;
+width: 730px;
+height: 415px;
+border-style: solid;
+border-width: 1px;
+border-color: #000000;
+}
+.m-box_2{
+position: relative;
+top: 24px;
+left:20px;
+width: 200px;
+height: 300px;
+background:#cdd3f5;
+border-style: solid;
+border-width: 1px;
+border-color:"black;";
+}
+.m-box_3{
+display: block;
+position: relative;
+top: 345px;
+left: -202px;
+height: 50px;
+width: 50px;
+border-style: solid;
+border-color:#000000;
+border-width: 1px;
+background: #cdd3f5;
+margin-left: 18.5px;
+margin-right: 5px;
+}
+.m-box_4{
+position: relative;
+flex-direction: column;
+top: -288px;
+left: 250px;
+height: 40px;
+width: 460px;
+border-style: solid;
+border-color:#000000;
+border-width: 1px;
+background: #cdd3f5;
+margin-top: 10px;
+margin-bottom: 2.6px;
+}
+.m-work_2{
+width: 600px;
+height: 500px;
+background: #99bd90;
+}
+.m-box_5{
+position: relative;
+top:	 53px;
+left: 73px;
+width: 390px;
+height: 370px;
+background: #ffffeb;
+margin: 10px;
+border-style: solid;
+border-width: 1px;
+border-color: grey;
+}
+.m-box_5space{
+height: 260px;
+}
+.m-box_5item{
+display: flex;
+height: 110px;
+background: #ffffff;
+flex-wrap: wrap;
+}
+.m-box_6{
+position: relative;
+display: block;
+top: 10px;
+left: 9px;
+flex-direction: column;
+height: 20px;
+width: 370px;
+background: #ffffff;
+}
+.m-box_6+.m-box_6{
+margin-top: -5px;
+margin-bottom: 0px;
+}
+.m-box_5item>l1{
+height: 30px;
+}
+.m-box_5item>li>span{
+position: relative;
+top: -2px;
+font-size: 13px;
+}
+.m-font1{
+color: #ff0000;
+}
+.m-box_6>span{
+font-size: 14px;
+}
+.m-box_6>label{
+font-weight: bold;
+display: inline;
+font-size: 20px;
+color:#f71447 ;
+}
+.m-box_6>p{
+text-decoration:line-through;
+display: inline;
+font-size: 10px;
+color: grey;
+}
+.mg-font1{
+position: absolute;
+right: 0px;
+top: 2px;
+font-size: 12px;
+color: grey;
+}
+.m-box_6>f1{
+font-weight: bold;
+font-size: 10px;
+color:#f71447 ;
+position: absolute;
+left: 305px;
+top: 12px;
+}
+.m-box_6>p1{
+position: absolute;
+left: 330px;
+top: 12px;
+display: inline;
+font-size: 10px;
+color: grey;
+}
+.m-work_3{
+width: 1500px;
+height: 700px;
+display: flex;
+flex-wrap: wrap;
+}
+.m-box_5space1{
+height: 260px;
+width: 390px;
+background: url('../img/bg1.jpg');
+background-size: 100% 100%;
+}
+.m-box_5space2{
+height: 260px;
+width: 390px;
+background: url('../img/bg2.jpg');
+background-size: 100% 100%;
+}
+.m-box_5space3{
+height: 260px;
+width: 390px;
+background: url('../img/bg3.jpg');
+background-size: 100% 100%;
+}
+.m-box_5space4{
+height: 260px;
+width: 390px;
+background: url('../img/bg4.jpg');
+background-size: 100% 100%;
+}
+.m-box_5space5{
+height: 260px;
+width: 390px;
+background: url('../img/bg5.jpg');
+background-size: 100% 100%;
+}
+.m-box_5space6{
+height: 260px;
+width: 390px;
+background: url('../img/bg6.jpg');
+background-size: 100% 100%;
+}
+.mg-font2{
+position: relative;
+left: 130px;
+top: -2px;
+font-size: 12px;
+color: grey;
+}
+.m-box_6>f2{
+font-weight: bold;
+font-size: 10px;
+color:#f71447 ;
+position: absolute;
+left: 313px;
+top: 12px;
+}
+.m-box_6>f3{
+font-weight: bold;
+font-size: 10px;
+color:#f71447 ;
+position: absolute;
+left: 308px;
+top: 12px;
+}
+.m-box_6>f4{
+font-weight: bold;
+font-size: 10px;
+color:#f71447 ;
+position: absolute;
+left: 313px;
+top: 12px;
+}
+.m-box_6>f5{
+font-weight: bold;
+font-size: 10px;
+color:#f71447 ;
+position: absolute;
+left: 273px;
+top: 12px;
+}
+.m-box_6>f6{
+font-weight: bold;
+font-size: 10px;
+color:#f71447 ;
+position: absolute;
+left: 273px;
+top: 12px;
+}

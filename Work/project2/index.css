@@ -1,0 +1,156 @@
+body{
+margin: 0;
+}
+li{
+list-style: none;
+}
+.m-bg{
+position: absolute;
+width: 1063px;
+height: 544px;
+background: url('bk.jpg');
+opacity: .4;
+}
+.m-menu{
+font-size: 12px;
+font-weight: bold;
+padding: 15px 65px;
+letter-spacing: 0.6px;
+}
+div{
+display: block;
+}
+.m-item_name+.m-item_name{
+margin-left: 19px;
+margin-right: 1.6px;
+}
+.ltitle-1{
+padding: 24px 34px;
+font-size: 12.2px;
+font-weight: 600;
+position: absolute;
+}
+.ltitle-1_name+.ltitle-1_name{
+margin-top: 155px;
+}
+.ltitle-2{
+padding: 43.5px 32px;
+font-size: 18.8px;
+font-weight: 600;
+letter-spacing: -0.22px;
+margin-right: 10px;
+position: absolute;
+}
+.ltitle-2_name+.ltitle-2_name{
+margin-top: 146px;
+}
+.ltitle-3{
+padding: 74.5px 34px;
+font-size: 13px;
+font-weight: 500;
+letter-spacing: 0.095px;
+position: absolute;
+}
+.ltitle-3_name+.ltitle-3_name{
+margin-top: 154px;
+}
+.ltitle-4{
+padding :108px 32px;
+font-size: 10px;
+font-weight: 550;
+letter-spacing: -0.22px;
+position: absolute;
+}
+.ltitle-4_name+.ltitle-4_name{
+margin-top: 155px;
+}
+.ltitle-5{
+padding: 128px 31px;
+font-size: 10px;
+font-weight: 600;
+letter-spacing: -0.1px;
+position: absolute;
+}
+.ltitle-5_name+.ltitle-5_name{
+margin-top: 155px;
+}
+.img-name1{
+position:absolute;
+left: 538px;
+top: 69px;
+}
+.img-name2{
+position:absolute;
+left: 538px;
+top: 239px;
+}
+.img-name3{
+position:absolute;
+left: 538px;
+top: 409px;
+}
+h1{
+position:absolute;
+top: 88px;
+left: 770px;
+font-size: 19px;
+letter-spacing: -0.4px;
+}
+.rtitle1{
+position:absolute;
+left: 770px;
+top: 175px;
+font-size: 25px;
+}
+.rtitle1_name+.rtitle1_name{
+margin-top: 97px;
+}
+.rtitle2{
+position:absolute;
+left: 815px;
+top: 178px;
+font-size: 15px;
+font-weight: bold;
+letter-spacing: -0.45px;
+}
+.rtitle2_name+.rtitle2_name{
+margin-top: 69px;
+}
+.rtitle3{
+position:absolute;
+left: 814.5px;
+top: 245px;
+font-size: 10.5px;
+font-weight: 550;
+letter-spacing: -0.05px;
+}
+.rtitle3_name+.rtitle3_name{
+margin-top: 113px;
+}
+h2{
+position:absolute;
+left: 814.5px;
+top: 474.5px;
+font-size: 10.5px;
+font-weight: 550;
+letter-spacing: -0.05px;
+}
+.rtitle4{
+position:absolute;
+left: 815.5px;
+top: 265px;
+font-size: 10.5px;
+font-weight: 550;
+letter-spacing: -0.05px;
+}
+.rtitle4_name+.rtitle4_name{
+margin-top: 113px;
+}
+h3{
+position:absolute;
+left: 814.5px;
+top: 492.5px;
+font-size: 10.5px;
+font-weight: 550;
+letter-spacing: -0.05px;
+}

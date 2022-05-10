@@ -1,0 +1,235 @@
+body{
+margin: 0;
+}
+
+li{
+list-style: none;
+}
+.mg-bk{/*背景图片*/
+    position: absolute;
+    width: 608px;
+    height: 881px;
+    background: url('../img/bk.jpg') no-repeat;
+    opacity: .4;
+    background-size: 50% 50%;
+}   
+.m-taobao{/*上栏标题*/
+width: 304px;   
+height: 440px;
+border: 7px solid #eee;
+box-sizing: border-box;
+}
+.m-head{
+    height: 56px;
+    /*background: #336699;*/
+}
+
+.m-head>li>label{
+    display: block;
+    color: #ff6600;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.m-head>li:nth-child(1){
+    position: absolute;
+    left: 37px;
+    top: 15px;
+}
+
+.m-head>li:nth-child(2){
+    position: absolute;
+    left: 103px;
+    top: 15px;
+}
+
+.m-head>li:nth-child(3){
+    position: absolute;
+    left: 169px;
+    top: 15px;
+}
+
+.m-head>li:nth-child(4){
+    position: absolute;
+    left: 235px;
+    top: 15px;
+}
+
+.m-head>li{
+    position: absolute;
+    text-align: center;
+}
+
+.m-head>li>span{
+    position: relative;
+    width: 36px 16pc;
+    font-size: 11px;
+    top: -5px;
+}
+.m-zhuanqu{
+    height: 26.8px;
+    background: #ffe5de;
+}
+
+.m-zhuanqu>li{
+    position: absolute;
+    left: 89px;
+    top: 69px;
+    font-size: 10px;
+    color: #ff6145;
+}
+.space1{
+    height:15px;
+    /*background-color: #336699;*/
+}
+.m-title{
+   height: 35px;  
+   font-size: 8px; 
+   /*background-color: #336699;*/ 
+}
+.m-title_name{  
+    margin-right: 4.6px;
+    margin-left: 22px;
+}
+.m-ad{
+    height: 59px;
+    /*background: #336699;*/
+}
+.m-ad>li>label{
+    display: block;
+    font-size: 10px;
+    color: #ff6600;
+    letter-spacing: -.1px;
+}
+.m-ad>li>span{
+    position: relative;
+    font-size: 10px;
+    letter-spacing: -0.05px;
+    top: 5px;
+}
+.m-ad>li:nth-child(1){
+    position: absolute;
+    left: 18px;
+    top: 140px;
+}
+.m-ad>li:nth-child(2){
+    position: absolute;
+    left: 149px;
+    top: 140px;
+}
+.m-button{
+    height: 76px;
+}
+.m-button_name1{
+position: relative;
+color: #ff6600; 
+top: 44px;
+font-size: 9px;
+left: 18px;
+}
+.m-button_name{
+    font-size: 10px;
+}
+.m-button_name+.m-button_name{
+    margin-left: 44px;
+    margin-right: 0px;
+}
+.m-button>span{
+    display: inline;
+    position: relative;
+    left: 96px;
+    top: 24px;
+}
+.m-biaoti{
+    height: 35px;
+}
+.m-biaoti_name1{
+    position: relative;
+    font-size: 10px;
+    color: #ff6600;
+    top: 9.4px;
+    letter-spacing: 0px;
+    left: 25.8px;
+}
+.m-biaoti_name{
+    font-size: 10px;
+    letter-spacing: 0px;
+}
+.m-biaoti>span{
+    display: inline;
+    position: relative;
+    left: 85px;
+    top: -10px;
+}
+.m-biaoti_name+.m-biaoti_name{
+    margin-left: 19px;
+    margin-right: 0px;
+}
+.m-box1{
+    position: relative;
+    left: 16px;
+    margin: 0px 0px;
+    width: 188px;
+    height: 23px;
+    border-style: solid;
+    border-width: 1.8px;    
+}
+.m-box1>span{
+    position:relative;
+    font-size: 10px;
+    left: 4px;
+    top: -1px;
+}
+.m-box2{
+    position: relative;
+    left: 16px;
+    top: -1.4px;
+    margin: 0px 0px;
+    width: 188px;
+    height: 23px;
+    border-style: solid;
+    border-width: 1.8px;    
+}
+.m-box2>span{
+    position:relative;
+    font-size: 10px;
+    left: 3px;
+    top: -1px;
+}
+.m-price{
+    height: 26px;
+}
+.m-price>span{
+    font-size: 10px;
+    position: relative;
+    left: 19px;
+    top: 0px;
+}
+.m-price>label{
+    position: relative;
+    font-size: 12px;
+    color: #ff6600;
+    font-weight: bold;
+    top: 0px;
+    left: 15.8px;
+    letter-spacing: 1px;
+}
+.m-box3{
+    position: relative;
+    left: 16px;
+    top: 0.6px;
+    margin: 0px 0px;
+    width: 67.5px;
+    height: 27px;
+    background-color: #ff6600;
+}
+.m-box3>span{/*充值按钮*/
+    position: relative;
+    left: 9px;
+    top: 0px;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 0px;
+}
