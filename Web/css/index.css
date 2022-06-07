@@ -28,11 +28,6 @@ body {
 
 #cont{
   position: absolute;
-  margin: 0;
-  left: 10px;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
   left: 67%;
   width: 420px;
   text-align: center;
